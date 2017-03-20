@@ -1,0 +1,26 @@
+{
+  "name": "masterclass-node-typescript",
+  "version": "0.4.2",
+  "description": "Node.js REST API with Typescript and Express inspired by Vasco Ferreira and his Typescript Masterclass Series on skillshare.com.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootsmj/masterclass-node-typescript.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "REST",
+    "API",
+    "Typescript",
+    "Express"
+  ],
+  "author": "Martin Johansson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rootsmj/masterclass-node-typescript/issues"
+  },
+  "homepage": "https://github.com/rootsmj/masterclass-node-typescript#readme"
+}
