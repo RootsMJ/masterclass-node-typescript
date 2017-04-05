@@ -9,7 +9,9 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "lib": ["es6"],
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "rootDir": "src"
     },
     "exclude": [
       "node_modules"

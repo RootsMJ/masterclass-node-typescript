@@ -2,9 +2,10 @@
   "name": "masterclass-node-typescript",
   "version": "0.4.2",
   "description": "Node.js REST API with Typescript and Express inspired by Vasco Ferreira and his Typescript Masterclass Series on skillshare.com.",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "start": "./node_modules/.bin/ts-node ./src/server.ts"
+    "start": "./node_modules/.bin/ts-node ./src/server.ts",
+    "watch": "./node_modules/.bin/nodemon  -w . --ext \".ts\" --exec \"npm run start\""
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "express": "4.15.2",
     "human-readable-ids": "1.0.1",
     "mongoose": "4.9.1",
+    "mongoose-enumvalues": "0.0.1",
     "pg": "6.1.4",
     "typescript": "2.2.1"
   }
